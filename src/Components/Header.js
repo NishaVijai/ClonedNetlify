@@ -16,19 +16,19 @@ export default class Header extends Component {
                         </button>
 					
 
-						<button className="flex hover:bg-black focus:bg-black text-white text-2xl">User's GitHub Team<img src={downArrow} alt="Down Arrow Icon" height="22px" width="22px" /></button>
+						<button className="flex items-center hover:bg-black focus:bg-black ml-2 pl-2 text-white text-2xl">User's GitHub's team<img src={downArrow} alt="Down Arrow Icon" height="22px" width="22px" /></button>
 
 						
 					</div>
 
 					<div className="flex">
-                        <button className="focus:bg-gray-800 hover:bg-gray-800 m-1 p-1 rounded-lg">
+                        <button className="focus:bg-gray-800 hover:bg-gray-800 m-2 p-2 rounded-lg">
                         <img src={notification} alt="Notification Icon" height="30px" width="30px" />
                         </button>
-						<button className="focus:bg-gray-800 hover:bg-gray-800 m-1 p-1 rounded-lg">
+						<button className="focus:bg-gray-800 hover:bg-gray-800 m-2 p-2 rounded-lg">
                         <img src={support} alt="Support Icon" height="30px" width="30px" />
                         </button>
-						<button className="focus:bg-gray-800 hover:bg-gray-800 m-1 p-1 rounded-lg">
+						<button className="focus:bg-gray-800 hover:bg-gray-800 m-2 p-2 rounded-lg">
                         <img src={userIcon} alt="User Icon" height="30px" width="30px" />
                         </button>
 						
@@ -37,7 +37,7 @@ export default class Header extends Component {
 
 				<nav>
 					<ul className="capitalize flex m-2">
-						<li className="cursor-pointer focus:bg-gray-800 hover:bg-gray-800 hover:text-white p-2 rounded-lg">sites</li>
+						<li className="cursor-pointer focus:bg-gray-800 hover:bg-gray-800 hover:text-white p-2 rounded-lg text-white">sites</li>
 						<li className="cursor-pointer focus:bg-gray-800 hover:bg-gray-800 hover:text-white p-2 rounded-lg">builds</li>
 						<li className="cursor-pointer focus:bg-gray-800 hover:bg-gray-800 hover:text-white p-2 rounded-lg">plugins</li>
 						<li className="cursor-pointer focus:bg-gray-800 hover:bg-gray-800 hover:text-white p-2 rounded-lg">domains</li>
