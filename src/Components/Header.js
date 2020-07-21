@@ -16,7 +16,7 @@ export default class Header extends Component {
                         </button>
 					
 
-						<button className="flex items-center hover:bg-black focus:bg-black ml-2 pl-2 text-white text-2xl">User's GitHub's team<img src={downArrow} alt="Down Arrow Icon" height="22px" width="22px" /></button>
+						<button className="flex items-end hover:bg-black focus:bg-black ml-2 pl-2 text-white text-2xl">User's GitHub's team<img src="https://img.icons8.com/nolan/64/chevron-down.png" height="18px" width="18px" className="ml-1" /></button>
 
 						
 					</div>
